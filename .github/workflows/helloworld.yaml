@@ -9,7 +9,7 @@ on:
       - main
   workflow_dispatch:
 jobs:
-  hello:
+  hello-world:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
